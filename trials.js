@@ -200,8 +200,11 @@ let x = return_address('Mel Melitipolski');
 console.log(x);
 
 // Write a function to return the address of a given person
+function schedule_managers(employees) {
+  const days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'];
 
-
+  let index = Math.random(0,5);
+  days[index];
 // Add a function to create an employee schedule for the week 
 
 
