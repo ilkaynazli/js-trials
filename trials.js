@@ -188,7 +188,16 @@ account_report(150000, customer);
 // Bank Manager
 
 // Create map of customer addresses
+const customerAddresses = new Map();
+customerAddresses.set('Mel Melitipolski', '707 Birch Street');
+customerAddresses.set('Barbara Brown', '8997 Jones Street');
 
+function return_address(name) {
+  return customerAddresses.get(name);
+}
+
+let x = return_address('Mel Melitipolski');
+console.log(x);
 
 // Write a function to return the address of a given person
 
